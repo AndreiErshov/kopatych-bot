@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "lib": [ "ES2015", "DOM" ],
+        "module": "Preserve",
+        "useDefineForClassFields": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "declaration": true,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "outDir": "./dist",
+        "typeRoots": [
+            "./src/@types",
+            "./node_modules/@types"
+        ]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"],
+    "files": [ "src/index.ts" ],
+    "ts-node": {
+        "files": true
+    }
+}
